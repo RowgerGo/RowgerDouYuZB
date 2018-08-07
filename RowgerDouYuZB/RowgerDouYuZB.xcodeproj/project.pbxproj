@@ -13,6 +13,11 @@
 		BD319A12211934B40011F2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A10211934B40011F2E9 /* LaunchScreen.storyboard */; };
 		BD319A1D211934B50011F2E9 /* RowgerDouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A1C211934B50011F2E9 /* RowgerDouYuZBTests.swift */; };
 		BD319A28211934B50011F2E9 /* RowgerDouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A27211934B50011F2E9 /* RowgerDouYuZBUITests.swift */; };
+		BD319A40211976710011F2E9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A3E211976710011F2E9 /* Home.storyboard */; };
+		BD319A43211976960011F2E9 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A41211976960011F2E9 /* Live.storyboard */; };
+		BD319A46211976C00011F2E9 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A44211976C00011F2E9 /* Follow.storyboard */; };
+		BD319A49211976D60011F2E9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A47211976D60011F2E9 /* Profile.storyboard */; };
+		BD319A5D21197A210011F2E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A5C21197A210011F2E9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		BD319A23211934B50011F2E9 /* RowgerDouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RowgerDouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD319A27211934B50011F2E9 /* RowgerDouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowgerDouYuZBUITests.swift; sourceTree = "<group>"; };
 		BD319A29211934B50011F2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD319A3F211976710011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RowgerDouYuZB/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		BD319A42211976960011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RowgerDouYuZB/Classes/Main/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		BD319A45211976C00011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RowgerDouYuZB/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		BD319A48211976D60011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RowgerDouYuZB/Classes/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		BD319A5C21197A210011F2E9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,6 @@
 			children = (
 				BD319A3721196A2D0011F2E9 /* Classes */,
 				BD319A07211934B40011F2E9 /* AppDelegate.swift */,
-				BD319A0B211934B40011F2E9 /* Main.storyboard */,
 				BD319A0E211934B40011F2E9 /* Assets.xcassets */,
 				BD319A10211934B40011F2E9 /* LaunchScreen.storyboard */,
 				BD319A13211934B40011F2E9 /* Info.plist */,
@@ -139,6 +148,7 @@
 		BD319A3821196A2D0011F2E9 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A44211976C00011F2E9 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -146,6 +156,7 @@
 		BD319A3921196A2D0011F2E9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A3E211976710011F2E9 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		BD319A3A21196A2D0011F2E9 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A41211976960011F2E9 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +172,8 @@
 		BD319A3B21196A2D0011F2E9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A0B211934B40011F2E9 /* Main.storyboard */,
+				BD319A5C21197A210011F2E9 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -167,6 +181,7 @@
 		BD319A3C21196A2D0011F2E9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A47211976D60011F2E9 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -285,6 +300,10 @@
 				BD319A12211934B40011F2E9 /* LaunchScreen.storyboard in Resources */,
 				BD319A0F211934B40011F2E9 /* Assets.xcassets in Resources */,
 				BD319A0D211934B40011F2E9 /* Main.storyboard in Resources */,
+				BD319A43211976960011F2E9 /* Live.storyboard in Resources */,
+				BD319A40211976710011F2E9 /* Home.storyboard in Resources */,
+				BD319A49211976D60011F2E9 /* Profile.storyboard in Resources */,
+				BD319A46211976C00011F2E9 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD319A08211934B40011F2E9 /* AppDelegate.swift in Sources */,
+				BD319A5D21197A210011F2E9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +379,38 @@
 				BD319A11211934B40011F2E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD319A3E211976710011F2E9 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD319A3F211976710011F2E9 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		BD319A41211976960011F2E9 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD319A42211976960011F2E9 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		BD319A44211976C00011F2E9 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD319A45211976C00011F2E9 /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+		BD319A47211976D60011F2E9 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD319A48211976D60011F2E9 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
