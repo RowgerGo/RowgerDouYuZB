@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD319A08211934B40011F2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A07211934B40011F2E9 /* AppDelegate.swift */; };
-		BD319A0A211934B40011F2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A09211934B40011F2E9 /* ViewController.swift */; };
 		BD319A0D211934B40011F2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A0B211934B40011F2E9 /* Main.storyboard */; };
 		BD319A0F211934B40011F2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD319A0E211934B40011F2E9 /* Assets.xcassets */; };
 		BD319A12211934B40011F2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A10211934B40011F2E9 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		BD319A04211934B40011F2E9 /* RowgerDouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowgerDouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD319A07211934B40011F2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD319A09211934B40011F2E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD319A0C211934B40011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD319A0E211934B40011F2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD319A11211934B40011F2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		BD319A06211934B40011F2E9 /* RowgerDouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A3721196A2D0011F2E9 /* Classes */,
 				BD319A07211934B40011F2E9 /* AppDelegate.swift */,
-				BD319A09211934B40011F2E9 /* ViewController.swift */,
 				BD319A0B211934B40011F2E9 /* Main.storyboard */,
 				BD319A0E211934B40011F2E9 /* Assets.xcassets */,
 				BD319A10211934B40011F2E9 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				BD319A29211934B50011F2E9 /* Info.plist */,
 			);
 			path = RowgerDouYuZBUITests;
+			sourceTree = "<group>";
+		};
+		BD319A3721196A2D0011F2E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD319A3B21196A2D0011F2E9 /* Main */,
+				BD319A3921196A2D0011F2E9 /* Home */,
+				BD319A3821196A2D0011F2E9 /* Follow */,
+				BD319A3A21196A2D0011F2E9 /* Live */,
+				BD319A3C21196A2D0011F2E9 /* Profile */,
+				BD319A3D21196A2D0011F2E9 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BD319A3821196A2D0011F2E9 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		BD319A3921196A2D0011F2E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BD319A3A21196A2D0011F2E9 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		BD319A3B21196A2D0011F2E9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD319A3C21196A2D0011F2E9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BD319A3D21196A2D0011F2E9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD319A0A211934B40011F2E9 /* ViewController.swift in Sources */,
 				BD319A08211934B40011F2E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,16 +482,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RowgerDouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-024web.cn.RowgerDouYuZB";
+				PRODUCT_BUNDLE_IDENTIFIER = blog.1024web.cn.RowgerDouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,16 +501,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RowgerDouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-024web.cn.RowgerDouYuZB";
+				PRODUCT_BUNDLE_IDENTIFIER = blog.1024web.cn.RowgerDouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
