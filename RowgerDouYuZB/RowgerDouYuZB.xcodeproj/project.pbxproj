@@ -20,6 +20,8 @@
 		BD319A7E21197EE40011F2E9 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD319A7B21197EE40011F2E9 /* Live.storyboard */; };
 		BD319A8021197FBB0011F2E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A7F21197FBB0011F2E9 /* HomeViewController.swift */; };
 		BD319A8321199A980011F2E9 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A8221199A980011F2E9 /* UIBarButtonItem-Extension.swift */; };
+		BD319A85211A84930011F2E9 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A84211A84930011F2E9 /* PageTitleView.swift */; };
+		BD319A87211A87010011F2E9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD319A86211A87010011F2E9 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		BD319A7B21197EE40011F2E9 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		BD319A7F21197FBB0011F2E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD319A8221199A980011F2E9 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		BD319A84211A84930011F2E9 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		BD319A86211A87010011F2E9 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				BD319A8121199A430011F2E9 /* Extension */,
+				BD319A86211A87010011F2E9 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -232,7 +237,7 @@
 		BD319A6521197E560011F2E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BD319A0B211934B40011F2E9 /* Main.storyboard */,
+				BD319A84211A84930011F2E9 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 		BD319A6B21197E620011F2E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD319A0B211934B40011F2E9 /* Main.storyboard */,
 				BD319A6721197E560011F2E9 /* MainViewController.swift */,
 			);
 			path = Controller;
@@ -464,7 +470,9 @@
 			files = (
 				BD319A6921197E560011F2E9 /* MainViewController.swift in Sources */,
 				BD319A08211934B40011F2E9 /* AppDelegate.swift in Sources */,
+				BD319A85211A84930011F2E9 /* PageTitleView.swift in Sources */,
 				BD319A8321199A980011F2E9 /* UIBarButtonItem-Extension.swift in Sources */,
+				BD319A87211A87010011F2E9 /* Common.swift in Sources */,
 				BD319A8021197FBB0011F2E9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
